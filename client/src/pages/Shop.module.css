@@ -1,0 +1,55 @@
+.maincontainer {
+    background-color: rgb(233, 178, 183);
+    
+    color: #000000;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0px 0px 0px 75px;
+  }
+  
+  .title {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .buttoncontainer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .active {
+    background-color: rgba(29, 185, 84);
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration:none;
+  }
+  .active:hover {
+    color: #fff; 
+  }
+  
+  .secondarybutton {
+    background-color: rgb(233, 178, 183);
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+  }

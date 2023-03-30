@@ -1,0 +1,76 @@
+.masters {
+    max-width: 800px;
+    margin: 0 auto;
+    color:white;
+  }
+  
+  .title {
+    padding-top:10px;
+    color:black;
+    width:100%;
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: rgb(233, 178, 183);
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    height:300px;
+    border-radius: 0px 0px 0px 75px;
+  }
+  
+  .master {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right:35px;
+  }
+  
+  .name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+    text-align: center;
+  }
+  .haircutstyles {
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .haircutstyles button {
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(29, 185, 84);
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+  
+  .haircutstyles button:hover {
+    background-color: #ddd;
+  }
+  
+  .haircutstyles button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #333;
+  }
